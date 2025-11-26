@@ -42,11 +42,18 @@ I’m a passionate and solution-driven **Flutter & Python/Django developer** pur
 
 ### 📈 **GitHub Stats**:
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hiteshtyagi610&show_icons=true&theme=radical" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hiteshtyagi610&theme=radical" alt="GitHub Streak"/>
+
+  <!-- GitHub Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Hiteshtyagi610&show_icons=true&theme=radical" height="170" />
+
+  <!-- Streak Stats -->
+  <img src="https://streak-stats.demolab.com?user=Hiteshtyagi610&theme=radical&hide_border=false" height="170" />
+
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hiteshtyagi610&layout=compact&theme=radical" height="170" />
+
 </p>
 
----
 
 ### 🌱 **Currently Working On**
 - Building scalable **mobile & web apps** with Flutter & Django
