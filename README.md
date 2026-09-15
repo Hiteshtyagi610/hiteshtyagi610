@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=38&duration=2500&pause=1200&color=2BE642&center=true&vCenter=true&width=1000&height=100&lines=Hi%2C+I'm+Hitesh+Tyagi;Machine+Learning+%7C+Data+Science;Building+Real-World+ML+Systems;Backend+%7C+DSA+%7C+Analytics" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=38&duration=2500&pause=1200&color=2BE642&center=true&vCenter=true&width=1000&height=100&lines=Hi%2C+I'm+Hitesh+Tyagi;Applied+AI+%7C+Machine+Learning+%7C+Data+Science;Building+Deployed%2C+End-to-End+ML+Systems;Backend+%7C+DSA+%7C+GenAI" />
 
 </div>
 
@@ -10,64 +10,92 @@
 
 ## 🧠 About Me
 
-Machine Learning & Data Science focused Computer Science student with strong foundations in **DSA, Mathematics, and Statistics**.
+B.Tech Computer Science student (MAIT, GGSIPU) with a minor in Machine Learning & Data Analytics, working toward **Applied AI / LLM-Agentic engineering** — with classical ML and backend engineering as the foundation.
 
-I build **end-to-end ML systems**, not just models — from data preprocessing to deployment.
+Currently an **AI/ML & Data Science intern at Caplore**, building an AI-powered Merchant Banking Operating System. I don't just train models — I ship them: preprocessing, evaluation, APIs, deployment, monitoring.
 
-- 🚀 Built ML systems with **real-world datasets & production workflows**
-- 📊 Strong in **EDA, Feature Engineering, Model Optimization**
-- ⚙️ Backend experience with **Flask, Django & APIs**
-- 📱 Also experienced in **Flutter (secondary skill)**  
-- 🏆 Hackathon Finalist | Tech Community Leader  
+- 🚀 Four independently deployed, end-to-end ML/AI systems
+- ⚙️ Backend: **FastAPI, REST API design, OAuth2, Docker, GitHub Actions CI/CD, AWS**
+- 📊 ML: **scikit-learn, TF-IDF, sentence-transformers, SHAP explainability, PSI drift monitoring**
+- 🧩 Currently going hands-on with **LangChain / GenAI fundamentals** as a step toward RAG and agentic systems
+- 🏆 President & PR Head, TechXtract (500+ member tech community) | VP, StartupSphere
 
 ---
 
 ## 🚀 Featured Projects
 
+### 🕵️ Visl Screen — AI Candidate Screening Platform
+My strongest portfolio project — built end-to-end for a founding AI engineer assignment.
+- Candidate screening pipeline using **sentence-transformers** for semantic matching
+- Integrates **GitHub REST API**, **Gmail SMTP**, and **Google Calendar API with OAuth2**
+- Deployed live on **Railway**
+
+---
+
+### 🎬 CineMatch — Content-Based Movie Recommender
+- Content-based recommendation engine over **45K+ movie plots** using TF-IDF + cosine similarity
+- Hybrid popularity-aware re-ranking and a natural-language "vibe search" endpoint
+- **FastAPI** backend, **Streamlit** frontend, deployed on **Render** and **Streamlit Cloud**
+- Built from a rough notebook prototype into a deployed system — resolved real production bugs along the way (API timeouts, cold starts, preprocessing errors)
+
+---
+
 ### 📈 InvoiceGuard AI — Financial Anomaly Detection
-- Built ML system for **freight cost prediction + anomaly detection**
-- Achieved **96.99% R² (regression)** and **89% accuracy (classification)**
-- Deployed using **Streamlit for real-time analytics dashboard**
-- Multi-dataset feature engineering + model selection
+- Anomaly detection service using **Isolation Forest** with **SHAP explainability**
+- **96.99% R²** on the regression component, **89% accuracy** on classification
+- **FastAPI** backend with **Docker + CI**, **PSI drift monitoring**, and a vendor risk leaderboard
+- Real-time analytics dashboard in **Streamlit**
 
 ---
 
-### 🏠 House Price Prediction (ML Pipeline)
-- End-to-end ML pipeline with **EDA, feature engineering, scaling**
-- Improved performance by **~28% over baseline**
-- Used **Random Forest + Cross Validation**
-- Model persistence using **Joblib**
+### 🎭 Emotion Classifier — NLP from the Ground Up
+- Compared 8 model combinations (BoW/TF-IDF × Naive Bayes, Logistic Regression, Linear SVM, Random Forest)
+- Best result: **BoW + Logistic Regression at ~88–89% accuracy** — simpler beat more complex
+- Evaluated with weighted F1, classification reports, and confusion matrices, not accuracy alone
+- Deployed live on **Streamlit**
 
 ---
 
-### 🤖 InternGo AI — Resume Parsing & Recommendation
-- Built AI system to extract structured data from resumes
-- Used **PyMuPDF + SpaCy (NLP pipeline)**
-- Developed **recommendation engine** for internship matching
-- Full-stack system with Firebase backend
+## 🧪 Currently Building — GenAI Fundamentals
+
+Hands-on LangChain practice repo: chat models (Groq, HuggingFace), embedding models, three prompt patterns (simple, template, structured/Pydantic-validated), and message roles in a mode-switching agent — CLI first, then a Streamlit UI on top of each.
+
+Next: LCEL chains, memory, retrieval-backed indexes, and agents.
+
+🔗 [Gen-AI-Foundations](https://github.com/Hiteshtyagi610/Gen-AI-Foundations)
 
 ---
 
 ## 🛠 Tech Stack
 
-### 🔹 Data Science & ML
+### 🔹 Backend & Deployment
 <p>
-<img src="https://skillicons.dev/icons?i=python" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=flat&logo=python&logoColor=black"/>
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white"/>
+<img src="https://skillicons.dev/icons?i=python,fastapi,docker,aws,githubactions,cpp" />
+</p>
+<p>
+<img src="https://img.shields.io/badge/OAuth2-000000?style=flat&logo=auth0&logoColor=white"/>
+<img src="https://img.shields.io/badge/REST%20APIs-005571?style=flat&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white"/>
 </p>
 
-### 🔹 Backend & Systems
+### 🔹 ML & Data Science
 <p>
-<img src="https://skillicons.dev/icons?i=flask,django,firebase" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/SHAP-8A2BE2?style=flat"/>
+<img src="https://img.shields.io/badge/Sentence--Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"/>
+</p>
+
+### 🔹 Exploring
+<p>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white"/>
 </p>
 
 ### 🔹 Core CS
-- Data Structures & Algorithms  
-- Operating Systems  
-- DBMS  
+- Data Structures & Algorithms (170+ LeetCode problems, C++)
+- Operating Systems, DBMS, Computer Networks
 
 ---
 
@@ -84,11 +112,10 @@ I build **end-to-end ML systems**, not just models — from data preprocessing t
 
 ---
 
-## 🧪 Currently Exploring
-- Advanced Feature Engineering  
-- Model Optimization Techniques  
-- ML System Design  
-- Real-time ML deployment  
+## 🎯 Currently Exploring
+- LangChain fundamentals → LCEL chains → memory → retrieval-augmented generation
+- AI Agents and agentic system design
+- AWS Cloud Practitioner certification
 
 ---
 
